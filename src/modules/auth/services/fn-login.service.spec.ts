@@ -1,6 +1,5 @@
 import { Test } from '@nestjs/testing';
 import { getModelToken } from '@nestjs/mongoose';
-import { ConflictException } from '@nestjs/common';
 import { JwtService } from '@nestjs/jwt';
 import * as mongoose from 'mongoose';
 import {
