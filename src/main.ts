@@ -4,9 +4,10 @@ import { NestFactory } from '@nestjs/core';
 import { SwaggerModule, DocumentBuilder } from '@nestjs/swagger';
 import { AppModule } from './app.module';
 import { HttpCustomException } from './common/exception/http-custom.exception';
+import { GENERAL } from './const/general.const';
 
 async function bootstrap() {
-  const aplicationNestName = `::core-service-authentications::`;
+  const aplicationNestName = GENERAL.NAME_COMPONENT;
 
   const logger = new Logger(aplicationNestName);
   const app = await NestFactory.create(AppModule);

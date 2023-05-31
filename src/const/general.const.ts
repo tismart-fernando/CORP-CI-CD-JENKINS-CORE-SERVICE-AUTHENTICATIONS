@@ -1,4 +1,5 @@
 export const GENERAL = {
+  NAME_COMPONENT: '::core-service-authentications::',
   MESSAGE_SUCCEFULL: 'Proceso exitoso',
   STATUS_CREATED: 'Creado',
   EXCEPTION_CODE: {
@@ -9,5 +10,5 @@ export const GENERAL = {
     FIND_SECURITY_TOKEN: '[ER-FSBT]',
     DELETE_SECURITY_TOKEN: '[ER-DSTE]',
     REGISTER_ACCOUNT: '[ER-RGAC]',
-  },
+  }
 };
