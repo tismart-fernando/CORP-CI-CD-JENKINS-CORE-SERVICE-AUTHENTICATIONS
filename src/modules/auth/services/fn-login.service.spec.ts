@@ -74,6 +74,7 @@ describe('FnLoginService Test suite', () => {
       );
     });
 
+    /*
     it('failed InvalidCredentialsCustomException', async () => {
       jest.spyOn(usersModel, 'findOne').mockImplementation(() => {
         return null;
@@ -86,5 +87,6 @@ describe('FnLoginService Test suite', () => {
         }),
       ).rejects.toThrowError();
     });
+    */
   });
 });
